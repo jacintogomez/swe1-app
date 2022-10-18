@@ -5,4 +5,3 @@ flake8
 black
 coverage
 coveralls
-importlib-metadata==4.3
