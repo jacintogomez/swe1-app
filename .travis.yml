@@ -7,6 +7,14 @@ python:
 install:
   - pip install -r requirements.txt
 
+script:
+  - python -m black . --check
+  - flake8 .
+  - coverage run --source=jgswe,polls manage.py test
+
+after_script:
+  - python -m coveralls
+
 # deploy:
 #   provider: elasticbeanstalk
 #   access_key_id: $ACCESSKEY

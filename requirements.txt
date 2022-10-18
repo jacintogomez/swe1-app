@@ -3,4 +3,6 @@ pytz==2022.4
 sqlparse==0.4.3
 flake8
 black
+coverage
+coveralls
 importlib-metadata==4.3
