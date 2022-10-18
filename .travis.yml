@@ -7,11 +7,11 @@ python:
 install:
   - pip install -r requirements.txt
 
-deploy:
-  provider: elasticbeanstalk
-  access_key_id: $ACCESSKEY
-  secret_access_key: $SECRETKEY
-  region: "us-west-2"
-  app: "django-tutorial"
-  env: "django-env"
-  bucket_name: "elasticbeanstalk-us-west-2-978364673633"
+# deploy:
+#   provider: elasticbeanstalk
+#   access_key_id: $ACCESSKEY
+#   secret_access_key: $SECRETKEY
+#   region: "us-west-2"
+#   app: "django-tutorial"
+#   env: "django-env"
+#   bucket_name: "elasticbeanstalk-us-west-2-978364673633"
