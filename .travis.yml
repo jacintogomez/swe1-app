@@ -15,11 +15,11 @@ script:
 after_script:
   - python -m coveralls
 
-# deploy:
-#   provider: elasticbeanstalk
-#   access_key_id: $ACCESSKEY
-#   secret_access_key: $SECRETKEY
-#   region: "us-west-2"
-#   app: "django-tutorial"
-#   env: "django-env"
-#   bucket_name: "elasticbeanstalk-us-west-2-978364673633"
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: $ACCESSKEY
+  secret_access_key: $SECRETKEY
+  region: "us-west-2"
+  app: "jacinto-tutorial"
+  env: "jacinto-environment"
+  bucket_name: "elasticbeanstalk-us-west-2-978364673633"
