@@ -23,3 +23,5 @@ deploy:
   app: "jacinto-tutorial"
   env: "jacinto-environment"
   bucket_name: "elasticbeanstalk-us-west-2-978364673633"
+  on:
+    all_branches: true
