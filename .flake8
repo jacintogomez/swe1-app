@@ -1,0 +1,4 @@
+
+[flake8]
+#default 88 but some lines in our files exceed that
+max-line-length = 150
